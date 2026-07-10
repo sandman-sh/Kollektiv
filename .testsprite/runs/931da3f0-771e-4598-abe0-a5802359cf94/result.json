@@ -1,0 +1,18 @@
+{
+  "testId": "14844956-bf8d-406c-982a-04c541522049",
+  "status": "blocked",
+  "startedAt": "2026-07-10T16:24:50.769Z",
+  "finishedAt": "2026-07-10T16:28:28.483Z",
+  "videoUrl": "https://testsprite-videos.s3.us-east-1.amazonaws.com/b4b80438-3081-70c2-e306-b12376cb999b/1783700908238632//tmp/b9db91e6-d852-43ad-a969-5aa294824470/result.webm",
+  "failureAnalysisUrl": null,
+  "snapshotId": "snap_20694e7c654c11a8",
+  "runIdIfAvailable": "931da3f0-771e-4598-abe0-a5802359cf94",
+  "codeVersion": "v1",
+  "targetUrl": "https://0xkollektiv.vercel.app/",
+  "targetUrlSource": "run",
+  "failedStepIndex": 14,
+  "failureKind": null,
+  "verdict": "blocked",
+  "executionStatus": "completed",
+  "summary": "Blocked before a verdict could be produced: TEST BLOCKED: PASS: Registration and entry completed.\n\nObservations (directly from the UI in this session):\n- The page URL redirected to: https://0xkollektiv.vercel.app/canvas\n- The top-right header shows a green 'LIVE' indicator badge and the logged-in username 'USER48392'.\n- The canvas UI and left 'ELEMENTS' panel are visible, indicating successful entry to the multiplayer canvas.\n\nResult: The new user 'User48392' was created with PIN 1234, the app …"
+}

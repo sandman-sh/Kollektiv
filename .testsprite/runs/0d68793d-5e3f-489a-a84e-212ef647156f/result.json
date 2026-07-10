@@ -1,0 +1,18 @@
+{
+  "testId": "14844956-bf8d-406c-982a-04c541522049",
+  "status": "blocked",
+  "startedAt": "2026-07-10T16:43:54.558Z",
+  "finishedAt": "2026-07-10T16:47:31.159Z",
+  "videoUrl": "https://testsprite-videos.s3.us-east-1.amazonaws.com/b4b80438-3081-70c2-e306-b12376cb999b/1783702050879746//tmp/7ced97e8-6acd-46fc-8b96-93c8be8258d7/result.webm",
+  "failureAnalysisUrl": null,
+  "snapshotId": "snap_1f7a087a1f9f28ff",
+  "runIdIfAvailable": "0d68793d-5e3f-489a-a84e-212ef647156f",
+  "codeVersion": "v1",
+  "targetUrl": "https://0xkollektiv.vercel.app/",
+  "targetUrlSource": "run",
+  "failedStepIndex": 14,
+  "failureKind": null,
+  "verdict": "blocked",
+  "executionStatus": "completed",
+  "summary": "Blocked before a verdict could be produced: TEST BLOCKED: PASS: The registration flow completed and the multiplayer canvas is reached.\n\nVerification steps and observations:\n- The browser URL is https://0xkollektiv.vercel.app/canvas (verified in the current tab). This satisfies the redirect-to-/canvas assertion.\n- The canvas header shows a visible green 'LIVE' badge (visible in the page header and screenshot) which satisfies the LIVE indicator assertion.\n- The username badge 'USER48321' (created…"
+}
