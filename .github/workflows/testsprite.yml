@@ -1,0 +1,28 @@
+name: TestSprite E2E Verification
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install TestSprite CLI
+        run: npm install -g @testsprite/testsprite-cli
+
+      - name: Run TestSprite E2E Happy Path Test
+        env:
+          TESTSPRITE_API_KEY: ${{ secrets.TESTSPRITE_API_KEY }}
+        run: |
+          testsprite test run 14844956-bf8d-406c-982a-04c541522049 --target-url https://0xkollektiv.vercel.app/ --wait
