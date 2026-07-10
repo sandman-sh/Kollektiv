@@ -8,6 +8,7 @@ import {
 import { SHADER_TYPES } from "./ShaderBlock";
 import { IconPicker } from "./IconPicker";
 import { toast } from "sonner";
+import { ImageWithFallback } from "./ui/ImageWithFallback";
 
 // ── Primitive Controls ────────────────────────────────────────
 
@@ -533,7 +534,7 @@ export function StylePanel({ block: b, allBlocks, currentUserName, onUpdate: u, 
                 </>
               ) : b.imageSrc ? (
                 <>
-                  <img
+                  <ImageWithFallback
                     src={b.imageSrc}
                     alt=""
                     className="w-full max-h-28 object-cover border-2 border-black"

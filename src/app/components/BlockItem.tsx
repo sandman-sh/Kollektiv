@@ -3,6 +3,7 @@ import { Block } from "../lib/api";
 import { GitFork, ExternalLink, LayoutTemplate, Grid3x3, ChevronDown, Lock, Download, GitPullRequest } from "lucide-react";
 import { ShaderBlock } from "./ShaderBlock";
 import { renderIcon } from "./IconPicker";
+import { ImageWithFallback } from "./ui/ImageWithFallback";
 
 // ── Helpers ───────────────────────────────────────────────────
 
@@ -194,7 +195,7 @@ function RenderSvg({ b }: { b: Block }) {
 
 function RenderImage({ b }: { b: Block }) {
   if (b.imageSrc) {
-    return <img src={b.imageSrc} alt="" style={{ width: "100%", height: "100%", objectFit: (b.objectFit as any)||"cover", display: "block", borderRadius: radiusStyle(b), filter: filterStyle(b)||undefined }} />;
+    return <ImageWithFallback src={b.imageSrc} alt="" style={{ width: "100%", height: "100%", objectFit: (b.objectFit as any)||"cover", display: "block", borderRadius: radiusStyle(b), filter: filterStyle(b)||undefined }} />;
   }
   return (
     <div style={{ ...masterStyle(b), display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 8 }}>
