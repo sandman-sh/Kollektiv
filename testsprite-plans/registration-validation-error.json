@@ -1,0 +1,37 @@
+{
+  "projectId": "0358e316-1983-47ad-98f9-dd11d5f7a42b",
+  "type": "frontend",
+  "name": "Register validation error on mismatching PINs",
+  "description": "Registers a new user and attempts to set a mismatched confirm PIN, verifying that a 'PINs don't match' error message is displayed.",
+  "priority": "p1",
+  "planSteps": [
+    {
+      "type": "action",
+      "description": "Navigate to the homepage"
+    },
+    {
+      "type": "action",
+      "description": "Click the identity name input field and type a unique random username like 'User' followed by 5 random numbers"
+    },
+    {
+      "type": "action",
+      "description": "Click the CONTINUE button"
+    },
+    {
+      "type": "action",
+      "description": "Enter the digit 1 in the first PIN field, 2 in the second, 3 in the third, and 4 in the fourth field"
+    },
+    {
+      "type": "action",
+      "description": "Enter the digit 4 in the first confirm PIN field, 3 in the second, 2 in the third, and 1 in the fourth field"
+    },
+    {
+      "type": "action",
+      "description": "Click the CREATE & ENTER button"
+    },
+    {
+      "type": "assertion",
+      "description": "Verify that an error message saying 'PINs don't match' is displayed on the screen"
+    }
+  ]
+}

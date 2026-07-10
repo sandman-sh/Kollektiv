@@ -1,0 +1,41 @@
+{
+  "projectId": "0358e316-1983-47ad-98f9-dd11d5f7a42b",
+  "type": "frontend",
+  "name": "Register and enter canvas happy path",
+  "description": "Registers a new user with a unique name and PIN, and verifies they are successfully redirected to the multiplayer canvas with a LIVE indicator.",
+  "priority": "p0",
+  "planSteps": [
+    {
+      "type": "action",
+      "description": "Navigate to the homepage"
+    },
+    {
+      "type": "action",
+      "description": "Click the identity name input field and type a unique random username like 'User' followed by 5 random numbers"
+    },
+    {
+      "type": "action",
+      "description": "Click the CONTINUE button"
+    },
+    {
+      "type": "action",
+      "description": "Enter the digit 1 in the first PIN field, 2 in the second, 3 in the third, and 4 in the fourth field"
+    },
+    {
+      "type": "action",
+      "description": "Enter the digit 1 in the first confirm PIN field, 2 in the second, 3 in the third, and 4 in the fourth field"
+    },
+    {
+      "type": "action",
+      "description": "Click the CREATE & ENTER button"
+    },
+    {
+      "type": "assertion",
+      "description": "Verify the browser URL redirects to /canvas"
+    },
+    {
+      "type": "assertion",
+      "description": "Verify the LIVE status indicator badge is visible on the canvas header"
+    }
+  ]
+}
