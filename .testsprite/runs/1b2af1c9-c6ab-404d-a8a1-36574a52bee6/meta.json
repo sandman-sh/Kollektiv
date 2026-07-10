@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "cli-v1",
+  "snapshotId": "snap_78aaf664478e3294",
+  "testId": "14844956-bf8d-406c-982a-04c541522049",
+  "projectId": "0358e316-1983-47ad-98f9-dd11d5f7a42b",
+  "codeVersion": "v1",
+  "runIdIfAvailable": "1b2af1c9-c6ab-404d-a8a1-36574a52bee6",
+  "targetUrl": "https://0xkollektiv.vercel.app/",
+  "failedStepIndex": 13,
+  "failureKind": null,
+  "capturedAt": "2026-07-10T18:29:58.584Z",
+  "fetchedAt": "2026-07-10T18:30:07.269Z"
+}

@@ -1,0 +1,18 @@
+{
+  "testId": "14844956-bf8d-406c-982a-04c541522049",
+  "status": "blocked",
+  "startedAt": "2026-07-10T18:26:50.051Z",
+  "finishedAt": "2026-07-10T18:29:58.584Z",
+  "videoUrl": "https://testsprite-videos.s3.us-east-1.amazonaws.com/b4b80438-3081-70c2-e306-b12376cb999b/1783708198254815//tmp/8e4c4412-aa5f-4a82-a395-80162ec1414b/result.webm",
+  "failureAnalysisUrl": null,
+  "snapshotId": "snap_78aaf664478e3294",
+  "runIdIfAvailable": "1b2af1c9-c6ab-404d-a8a1-36574a52bee6",
+  "codeVersion": "v1",
+  "targetUrl": "https://0xkollektiv.vercel.app/",
+  "targetUrlSource": "run",
+  "failedStepIndex": 13,
+  "failureKind": null,
+  "verdict": "blocked",
+  "executionStatus": "completed",
+  "summary": "Blocked before a verdict could be produced: TEST BLOCKED: Task: Register a new user with a unique name and PIN, verify redirection to the multiplayer canvas with a LIVE indicator.\n\nSummary of verifications performed (all taken from this session's browser_state and screenshot):\n- Unique username created: 'User46281' (visible in header).\n- PIN set and confirmed: digits used were 1,2,3,4 (the PIN flow completed and 'CREATE & ENTER' was clicked).\n- Browser URL redirected to: https://0xkollektiv.ver…"
+}
