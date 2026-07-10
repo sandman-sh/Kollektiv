@@ -1,0 +1,18 @@
+{
+  "testId": "14844956-bf8d-406c-982a-04c541522049",
+  "status": "blocked",
+  "startedAt": "2026-07-10T16:58:04.441Z",
+  "finishedAt": "2026-07-10T17:01:32.939Z",
+  "videoUrl": "https://testsprite-videos.s3.us-east-1.amazonaws.com/b4b80438-3081-70c2-e306-b12376cb999b/178370289195017//tmp/4889c326-96f2-499e-b992-0cea6afa91f7/result.webm",
+  "failureAnalysisUrl": null,
+  "snapshotId": "snap_1cf38d40c9673e0d",
+  "runIdIfAvailable": "51641bab-6394-47ba-a753-9121de0a89ce",
+  "codeVersion": "v1",
+  "targetUrl": "https://0xkollektiv.vercel.app/",
+  "targetUrlSource": "run",
+  "failedStepIndex": 13,
+  "failureKind": null,
+  "verdict": "blocked",
+  "executionStatus": "completed",
+  "summary": "Blocked before a verdict could be produced: TEST BLOCKED: Task result summary and verification:\n\nRequirements from the user request:\n- Register a new user with a unique name and PIN.\n- Verify browser URL redirects to /canvas.\n- Verify the LIVE status indicator badge is visible on the canvas header.\n\nVerification against observed UI in this session:\n- Username: A unique username 'User82714' was entered during registration and appears in the header as the user badge (visible as 'USER82714' in the…"
+}
