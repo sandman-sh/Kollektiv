@@ -21,6 +21,12 @@ jobs:
       - name: Install TestSprite CLI
         run: npm install -g @testsprite/testsprite-cli
 
+      - name: Setup TestSprite Auth
+        env:
+          TESTSPRITE_API_KEY: ${{ secrets.TESTSPRITE_API_KEY }}
+        run: |
+          testsprite setup --from-env
+
       - name: Run TestSprite E2E Happy Path Test
         env:
           TESTSPRITE_API_KEY: ${{ secrets.TESTSPRITE_API_KEY }}
